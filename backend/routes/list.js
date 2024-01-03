@@ -33,8 +33,6 @@ router.post("/student-desc", async (req, res) => {
   }
 });
 
-
-
 //update
 router.put("/student-desc/:id", async (req, res) => {
   try {
